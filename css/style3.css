@@ -1,0 +1,56 @@
+#container {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  background-color: navy;
+  margin-left: 30px;
+}
+h1 {
+  margin: 20px 0 10px 0;
+  padding-top: 50px;
+  color: white;
+}
+h2 {
+  margin: 10px 0 5px 0;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+.far {
+  padding-right: 10px;
+}
+.fas {
+  padding-right: 10px;
+}
+button {
+  width: 100px;
+  margin: 50px 10px 0 0;
+  font-weight: bold;
+  border-radius: 10%;
+  animation: fluffy1 3s ease infinite;
+}
+@keyframes fluffy1 {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-15px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
